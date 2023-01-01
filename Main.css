@@ -102,7 +102,6 @@ color: #1abc9c;
     position: absolute; 
     Left: -20px; 
     color: #fff;
-    font: 22px 'Lora', serif;
     border-radius: 0 19px 19px 0;
     text-align: center;  
     Line-height: 38px;   
@@ -123,7 +122,7 @@ color: #1abc9c;
 
 h1 {
     padding: 0 0 15px 25px; 
-    font: 35px 'Lora', serif;
+    font: 35px;
     } 
 
     h1 a {
@@ -137,7 +136,7 @@ h1 {
 
 li {
     padding: 0 0 15px 25px; 
-    font: 15px 'Lora', serif; 
+    font: 15px;
     }
 
     li a {
