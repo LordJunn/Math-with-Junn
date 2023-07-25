@@ -298,6 +298,40 @@ text-decoration: underline;
 		-o-animation: fadeIn 0.5s ease-out;
 		animation: fadeIn 0.5s ease-out;
 	}
+
+
+        /* Accordion layer 2 thingy for math 3+ */
+	.hidecontent {
+    	display: none;
+	}
+	
+	#ouraccordion label {
+		box-shadow:0 0 20px #f1f1f1;
+		display: block;    
+		padding: 16px 44px;
+		margin: 20px 0px 1px 0px;
+		cursor: pointer;
+		background: #8100c6;
+		color: #FFF;
+		transition: ease .5s;
+	}
+	#ouraccordion label:hover {
+		background: #65009c;
+	}
+	.content {
+		box-shadow:0 0 20px #d4d4d4;
+		background: #fefcfffa;
+		padding: 10px 25px;
+		border: 1px solid #eaeaea;
+		margin: -1 0 0 0;
+	}
+	#ouraccordion input:checked + label + .content {
+		display: block;
+		webkit-animation: fadeIn 0.5s ease-out;
+		-moz-animation: fadeIn 0.5s ease-out;
+		-o-animation: fadeIn 0.5s ease-out;
+		animation: fadeIn 0.5s ease-out;
+	}
 	@-webkit-keyframes fadeIn {
 		0% {
 			display: none;
