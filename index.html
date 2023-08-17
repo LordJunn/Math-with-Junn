@@ -14,14 +14,40 @@
 <nav>
 <div class="logo-holder"><a href="#">Math with Junn</a></div>
 
-<ul>
-<li><a href="#Courses">Courses</a></li>
-<li><a href="#About">About</a></li> 
-<li><a href="#top">Home</a></li>
-</ul>
-
+<ul class="dropdown">
+    <li class="dropdown-item">
+      <a href="#Courses">Math Courses</a>
+      <div class="dropdown2">
+      <div class="dropdown-content">
+        <!-- Dropdown menu here -->
+        <ul>
+          <li><a href="#M1">PMT 0101</a></li>
+          <li><a href="#M2">PMT 0201</a></li>
+          <li><a href="#M3">PMT 0301</a></li>
+        </ul>
+      </div>
+    </div>
+    </li>
+    <li class="dropdown-item">
+        <a href="#Courses">Other Courses</a>
+        <div class="dropdown2">
+        <div class="dropdown-content">
+          <!-- Dropdown menu here -->
+          <ul>
+            <li><a href="#P1">PPP 0101</a></li>
+            <li><a href="#D1">PDS 0101</a></li>
+          </ul>
+        </div>
+      </div>
+      </li>
+    <li><a href="#About">About</a></li> 
+    <li><a href="#top">Home</a></li>
+  </ul>
+  
+  
 </nav>
 </header>
+
 <!-- #end of header -->
 <div class="tenor-gif-embed" data-postid="19593300" data-share-method="host" data-aspect-ratio="1.88235" data-width="100%">
     <a href="https://tenor.com/view/he-is-speaking-guy-explaining-with-a-whiteboard-some-guy-explaining-gif-19593300"></a>
@@ -29,7 +55,7 @@
 <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 <div class="container" id="Courses">
-    <h1>Math 1 (PMT0101)</h1>
+    <h1 id="M1">Math 1 (PMT0101)</h1>
 </div>
 <div class="container">
   <div class="item">
@@ -231,7 +257,7 @@
 <!-- #end of container 1 -->
 
 <div class="container" id="Courses">
-    <h1>Math 2 (PMT0201)</h1>
+    <h1 id="M2">Math 2 (PMT0201)</h1>
 </div>
 <div class="container">
   <div class="item">
@@ -418,7 +444,7 @@
 
 
 <div class="container" id="Courses">
-    <h1>Math 3 (PMT0301)</h1>
+    <h1 id="M3">Math 3 (PMT0301)</h1>
 </div>
 <div class="container">
     <div class="item">
@@ -536,7 +562,7 @@
 </div>
 <div class="container">
     <div class="item">
-        <h1><a href="#">PDS0101</a></h1> 
+        <h1 id="D1"><a href="#">PDS0101</a></h1> 
             <div class="text-holder">
             <p>Intro to Digital System </p>
             <a href="#" target="_blank">Small notes</a>
@@ -592,7 +618,7 @@
         </div>
 
         <div class="item">
-            <h1><a href="#">PPP0101</a></h1> 
+            <h1 id="P1"><a href="#">PPP0101</a></h1> 
                 <div class="text-holder">
                 <p>Physics</p>
                 <a href="#" target="_blank">Small notes</a>
@@ -641,8 +667,11 @@
     <div class="footer-top" id="About">
      <div class="footer-row">
     <h2>About Math with Junn</h2>
-    <p>Click on the topic headers to open the "textbook".</p>
-    <p>Click on the subtopic (Let's go!) for the Q & A.</p>
+    <p>Click on the topic headers to open the "textbook".<br>
+        Click on the subtopic (Let's go!) for the Q & A.<br><br>
+
+        Honestly did this for myself at first, but why not share it to everyone?
+    </p>
     </div> 
     <div class="footer-row">
     <h2>About Curriculum</h2> 
