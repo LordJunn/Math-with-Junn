@@ -2,3 +2,6 @@
 math? maybe not just math.
 
 https://lordjunn.github.io/Math-with-Junn/
+
+https://ko-fi.com/lordjunn
+Tips are much appreciated.
