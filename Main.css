@@ -393,9 +393,16 @@ text-decoration: underline;
 }
 
 /* random stuff if needed */
-.h69 {
+h69 {
 
-  font: 50px 'Ibarra Real Nova', serif;
+  font: 40px 'Ibarra Real Nova', serif;
   color:#43007a
+
+}
+
+h60 {
+
+  font: 35px 'Ibarra Real Nova', serif;
+  color:#ff0073
 
 }
