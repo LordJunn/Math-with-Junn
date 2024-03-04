@@ -70,6 +70,13 @@ nav ul li a:hover {
 color: #1abc9c;
 }
 
+#bannerimage {
+  width: 1920px;
+  background-image: url(New!!.png);
+  height: 1080px;
+  background-position: center;
+}
+
 /* styling container */ 
 .container {
     margin: 50px auto 10px auto;
@@ -393,16 +400,9 @@ text-decoration: underline;
 }
 
 /* random stuff if needed */
-h69 {
+.h69 {
 
-  font: 40px 'Ibarra Real Nova', serif;
+  font: 50px 'Ibarra Real Nova', serif;
   color:#43007a
-
-}
-
-h60 {
-
-  font: 35px 'Ibarra Real Nova', serif;
-  color:#ff0073
 
 }
